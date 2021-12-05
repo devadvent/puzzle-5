@@ -11,7 +11,7 @@ Because Santa is a perfectionist, he wants no repeated candy in any of the bags.
 
 ## 🧩 The puzzle
 
-You can find the list of available candies in the file [src/data/candies.js](src/data/candies.js).
+You can find the list of available candies in the file [src/data/candy.js](src/data/candy.js).
 
 Your job is to complete the function `generateCandyBags` from the file [src/utils/candy.js](src/utils/candy.js) and return an array of "candy bags".
 Each bag has a unique ID - for the candy machine to create these bags, it's required that this is a UUID (💡 hint: [https://www.npmjs.com/package/uuid](https://www.npmjs.com/package/uuid)).
