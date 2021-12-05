@@ -7,6 +7,7 @@ export const generateCandyBags = (bagCount, candyCount) => {
     // -   Each generated bag should have a valid UUID
     // -   No candy should be in the bag more than once
     // -   Not every bag should have the same candy (mix it up!)
-    // -   If `candyCount` is higher than
+    // -   If candyCount is higher than the amount of different types
+    //     of candy available, throw an Error('TOO_MUCH_CANDY_PER_BAG')
     return []
 }
